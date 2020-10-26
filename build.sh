@@ -13,4 +13,4 @@ cmake -DCMAKE_BUILD_TYPE=${buildoption} -G Ninja -B build/${buildoption}
 
 echo "Compiling using Ninja..."
 ninja -C build/${buildoption}
-./
+
